@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15060EF41EF7CC7E00CA95AB /* AddLogToFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 15060EF31EF7CC7E00CA95AB /* AddLogToFunc.m */; };
+		D079E81E1A68B2A500AEFD6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D079E81D1A68B2A500AEFD6A /* AppDelegate.m */; };
+		D079E8201A68B2A500AEFD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D079E81F1A68B2A500AEFD6A /* main.m */; };
+		D079E8221A68B2A500AEFD6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D079E8211A68B2A500AEFD6A /* Images.xcassets */; };
+		D079E8251A68B2A500AEFD6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D079E8231A68B2A500AEFD6A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15060EF21EF7CC7E00CA95AB /* AddLogToFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLogToFunc.h; sourceTree = "<group>"; };
+		15060EF31EF7CC7E00CA95AB /* AddLogToFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLogToFunc.m; sourceTree = "<group>"; };
+		D079E8171A68B2A500AEFD6A /* AddLogToFunc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddLogToFunc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D079E81B1A68B2A500AEFD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D079E81C1A68B2A500AEFD6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D079E81D1A68B2A500AEFD6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D079E81F1A68B2A500AEFD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D079E8211A68B2A500AEFD6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D079E8241A68B2A500AEFD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D079E8141A68B2A500AEFD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D079E80E1A68B2A500AEFD6A = {
+			isa = PBXGroup;
+			children = (
+				D079E8191A68B2A500AEFD6A /* AddLogToFunc */,
+				D079E8181A68B2A500AEFD6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D079E8181A68B2A500AEFD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D079E8171A68B2A500AEFD6A /* AddLogToFunc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D079E8191A68B2A500AEFD6A /* AddLogToFunc */ = {
+			isa = PBXGroup;
+			children = (
+				D079E81C1A68B2A500AEFD6A /* AppDelegate.h */,
+				D079E81D1A68B2A500AEFD6A /* AppDelegate.m */,
+				15060EF21EF7CC7E00CA95AB /* AddLogToFunc.h */,
+				15060EF31EF7CC7E00CA95AB /* AddLogToFunc.m */,
+				D079E8211A68B2A500AEFD6A /* Images.xcassets */,
+				D079E8231A68B2A500AEFD6A /* MainMenu.xib */,
+				D079E81A1A68B2A500AEFD6A /* Supporting Files */,
+			);
+			path = AddLogToFunc;
+			sourceTree = "<group>";
+		};
+		D079E81A1A68B2A500AEFD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D079E81B1A68B2A500AEFD6A /* Info.plist */,
+				D079E81F1A68B2A500AEFD6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D079E8161A68B2A500AEFD6A /* AddLogToFunc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D079E8341A68B2A500AEFD6A /* Build configuration list for PBXNativeTarget "AddLogToFunc" */;
+			buildPhases = (
+				D079E8131A68B2A500AEFD6A /* Sources */,
+				D079E8141A68B2A500AEFD6A /* Frameworks */,
+				D079E8151A68B2A500AEFD6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddLogToFunc;
+			productName = AddLogToFunc;
+			productReference = D079E8171A68B2A500AEFD6A /* AddLogToFunc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D079E80F1A68B2A500AEFD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "DNE Technology Co.,Ltd.";
+				TargetAttributes = {
+					D079E8161A68B2A500AEFD6A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = D079E8121A68B2A500AEFD6A /* Build configuration list for PBXProject "AddLogToFunc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D079E80E1A68B2A500AEFD6A;
+			productRefGroup = D079E8181A68B2A500AEFD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D079E8161A68B2A500AEFD6A /* AddLogToFunc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D079E8151A68B2A500AEFD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D079E8221A68B2A500AEFD6A /* Images.xcassets in Resources */,
+				D079E8251A68B2A500AEFD6A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D079E8131A68B2A500AEFD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15060EF41EF7CC7E00CA95AB /* AddLogToFunc.m in Sources */,
+				D079E8201A68B2A500AEFD6A /* main.m in Sources */,
+				D079E81E1A68B2A500AEFD6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D079E8231A68B2A500AEFD6A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D079E8241A68B2A500AEFD6A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D079E8321A68B2A500AEFD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D079E8331A68B2A500AEFD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D079E8351A68B2A500AEFD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AddLogToFunc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D079E8361A68B2A500AEFD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AddLogToFunc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D079E8121A68B2A500AEFD6A /* Build configuration list for PBXProject "AddLogToFunc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D079E8321A68B2A500AEFD6A /* Debug */,
+				D079E8331A68B2A500AEFD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D079E8341A68B2A500AEFD6A /* Build configuration list for PBXNativeTarget "AddLogToFunc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D079E8351A68B2A500AEFD6A /* Debug */,
+				D079E8361A68B2A500AEFD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D079E80F1A68B2A500AEFD6A /* Project object */;
+}
